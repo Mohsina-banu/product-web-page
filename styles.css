@@ -1,34 +1,105 @@
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
-}
-#head{
-    background-color: rgba(0, 81, 255, 0.829);
+.headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2874f0;
     color: white;
-    height: 30px;
-    padding: 10px;
-    margin-top: 1%;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.ul{
+    list-style: none;
+}
+.ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.ul li a{
+    text-decoration: none;
+    color: white;
 }
 #search{
-    width: 40%;
+    width: 50%;
     height: 30px;
-    padding: 0px;
-    margin-top: 0%;
-    margin: 0%;
+}
+#logo{
+    height: 40px;
 }
 #login{
-    background-color: white;
-    color:rgba(0, 81, 255, 0.829);
+    background-color:white;
+    color:#2874f0;
+    padding: 10px;
+    border: none;
     width: 10%;
-    height: 30px;
 }
-.headline{
-    margin-right: 20px;
-    margin-left: 10px;
-    padding: 10%;
+#searchbox{
+    padding: 5px;
+    background-color: white;
+    color: #2874f0;
+    border: none;
 }
 #image1{
+    width: 40%;
+    height: auto;
+}
+.details{
+    width: 55%;
+    padding-left: 0px;
+    text-align: left;
     margin: 0%;
-
+}
+h5,#title2{
+    margin: 0%;
+    padding: 5px 0;
+}
+#abc,#num{
+    color:green;
+    margin: 0%;
+}
+#price,#num{
+    display: inline-block;
+    margin: 0%;
+}
+.dis{
+    margin:0%;
+}
+#title1,#title2{
+    text-align: left;
+    margin: 0%;
+}
+#title1{
+    color:dimgrey;
+}
+#wed{
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    width: 50px;
+    margin: 0%;
+}
+#wed1{
+    margin: 0%;
+    color: dimgrey;
+}
+#wed,#wed1,#star{
+    display: inline-block;
+}
+#chart{
+    color: #2874f0;
+}
+#pip{
+    color: #2874f0;
+    display: inline-block;
+    margin: 0%;
+}
+#pop{
+    color: #2874f0;
+    margin: 0%;
+}
+#info2{
+    margin: 0%;
+    display: inline-block;
+}
+#info2a{
+    margin: 0%;
 }
