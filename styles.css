@@ -39,9 +39,13 @@
     border: none;
 }
 #image1{
-    width: 40%;
+    width: 30%;
     height: auto;
+    position: fixed;
+    float: right;
+    margin-left: 70%;
 }
+
 .details{
     width: 55%;
     padding-left: 0px;
@@ -179,7 +183,9 @@ h5,#title2{
     margin:auto;
     padding: 20px;
     border: none;
-    display: inline-block;
+    position: fixed;
+    float: right;
+    margin-left: 60%;
 }
 #buy{
     background-color:orangered;
@@ -187,5 +193,7 @@ h5,#title2{
     width: 20%;
     padding: 20px;
     border: none;
-    display: inline-block;
+    position: fixed;
+    margin-left: 80%;
 }
+
