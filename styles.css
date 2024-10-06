@@ -127,3 +127,65 @@ h5,#title2{
 #moreloc4{
     color: #2874f0;
 }
+#moreloc3{
+    color: black;
+}
+#ratings,#wen,#wen1,#star{
+    display: inline-block;
+}
+#wen{
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    width: 50px;
+    margin: 0%;
+}
+#wen1{
+    margin: 0%;
+    color: dimgrey;
+}
+#tar{
+    width: 30px;
+}
+#revimg{
+    width: 70px;
+}
+#para,#tar{
+    display: inline;
+}
+#flip{
+    color: gray;
+}
+#quest{
+    background-color:#2874f0;
+    color:white;
+    padding: 10px;
+    border: none;
+    width: 30%;
+    border-color: #2874f0;
+}
+#prod{
+    background-color:#2874f0;
+    color:white;
+    padding: 10px;
+    border: none;
+    width: 20%;
+    border-color: #2874f0;
+}
+#add{
+    background-color: orange;
+    color: white;
+    width: 20%;
+    margin:auto;
+    padding: 20px;
+    border: none;
+    display: inline-block;
+}
+#buy{
+    background-color:orangered;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    border: none;
+    display: inline-block;
+}
