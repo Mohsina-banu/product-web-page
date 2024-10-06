@@ -103,3 +103,27 @@ h5,#title2{
 #info2a{
     margin: 0%;
 }
+#word,#location5{
+    display: inline;
+}
+#word{
+    color: green;
+}
+#loc,#loc2{
+    display: inline;
+}
+#loc2{
+    color: grey;
+}
+#location6{
+    color:#2874f0 ;
+}
+#moreloc1,#moreloc2{
+    display: inline;
+}
+#moreloc2{
+    color:#2874f0
+}
+#moreloc4{
+    color: #2874f0;
+}
