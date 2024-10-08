@@ -196,4 +196,39 @@ h5,#title2{
     position: fixed;
     margin-left: 80%;
 }
-
+footer{
+    background-color: #002147;
+    color: white;
+    padding: 20px 0;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#footer-section h3{
+    margin-bottom: 15px;
+}
+#footer-section ul{
+    list-style: none;
+}
+#footer-section ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#footer-section ul li a:hover{
+    text-decoration: underline;
+}
+#footer-bottom{
+    background-color: #00112e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+#social-media a{
+    margin-right: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+}
